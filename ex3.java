@@ -9,7 +9,7 @@ public class ex3 {
 		Random rand = new Random();
 		int numeros[][] = new int[3][5];
 		int qtdPares = 0, qtdImpares = 0;
-		boolean repetido = false; //ver como fazer isso
+		boolean repetido = false; 
 		int comparar [][] = new int [3][5]; 
 		
 		for (int i = 0; i < numeros.length; i++) {
@@ -28,11 +28,11 @@ public class ex3 {
 
 			for (int j = 0; j < numeros[i].length; j++) {
 
-				System.out.print(numeros[i][j] + " ");
-				
+				System.out.print(numeros[i][j] + " ");		
 				comparar[i][j] = numeros[i][j];
 			}
 		}
+		// prints abaixo sao para testes do proprio programa, deixei em prol de mostrar como eu testo os algoritmos passo a passo
 		
 		int repeticao = 0;
 		for (int linha1 = 0; linha1 < 3; linha1++) {
@@ -42,8 +42,7 @@ public class ex3 {
 				for (int i = 0; i < 3; i++) {
 					
 					for (int j = 0; j < 5; j++) {
-						
-						
+							
 					//	System.out.print(" " + comparar[linha1][coluna1] + " "); teste pra ver se esta comparando 1 com todos os demais elemtentos
 					//	System.out.print(numeros[i][j] + "!!!");
 						
@@ -67,9 +66,7 @@ public class ex3 {
 					
 					if(repetido) {break;}
 				}
-	
 			}
-			
 		}
 
 		System.err.println("pulou\n");
@@ -80,3 +77,4 @@ public class ex3 {
 
 	}
 }
+
