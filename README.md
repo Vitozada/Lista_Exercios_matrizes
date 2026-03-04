@@ -76,4 +76,4 @@ c) A quantidade de números ímpares
 
 8- Leia uma matriz 5 x 5. Leia também um valor ´ X. O programa deverá fazer uma busca ´ desse valor na matriz e, ao final, escrever a localização (linha e coluna) ou uma mensagem de “não encontrado”. 
 
-6. Leia duas matrizes 4 x 4 e escreva uma terceira com os maiores valores de cada posição das matrizes lidas.
+9. Leia duas matrizes 4 x 4 e escreva uma terceira com os maiores valores de cada posição das matrizes lidas.
